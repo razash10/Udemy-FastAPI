@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Uvicorn: books",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "1_Books.books:app",
+                "--reload"
+            ],
+            "jinja": true
+        }
+    ]
+}
