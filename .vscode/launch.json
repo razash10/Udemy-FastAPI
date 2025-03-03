@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Uvicorn: books",
+            "name": "Uvicorn: Books",
             "type": "debugpy",
             "request": "launch",
             "module": "uvicorn",
@@ -11,6 +11,16 @@
                 "--reload"
             ],
             "jinja": true
-        }
+        },
+        {
+            "name": "Uvicorn: Books 2",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "2_Books_Advanced.books:app",
+                "--reload"
+            ]
+        },
     ]
 }
